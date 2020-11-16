@@ -39,7 +39,6 @@ header{
     min-width: 320px;   /*el width no se va a hacer más pequeña de este tamaño que es la dimensión más pequeña en celulares*/
     height: 334px;
     text-align: center;
-    align-items: center;
     background: linear-gradient(207.8deg, var(--warn-black) 16.69%, var(--bitcoin-orange) 100%);
 }
 
@@ -47,6 +46,7 @@ header img {
     width: 150px;
     height: 24px;
     margin-top:60px;
+    align-self: center;
 }
 
 .header--title-container{
@@ -55,8 +55,9 @@ header img {
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top:40px;
+    margin-top:20px;
     text-align: center;
+    align-self: center;
 }
 
 .header--title-container h1{
@@ -67,10 +68,9 @@ header img {
 }
 
 .header--title-container p{
-    margin-top: 24px;
-    font-size: 1.4rem;
+    margin-top: 15px;
+    font-size: 1.1rem;
     font-weight: 500;
-    line-height: 1.8rem;   /*salto de linea*/
     color: var(--soft-orange);
     font-style: normal;
 }
@@ -89,7 +89,7 @@ header img {
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border: none;
     border-radius: 5px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
     color: var(--warn-black)
@@ -101,4 +101,52 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url(./assets/icons/down-arrow.svg);
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-exchange-container--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.main-exchange-container .backgroundImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/Bitcoin.svg');
+    /*vamos a ajustar la imagen para que cuando aumente el tamaño de nuestra pantalla esta se mantenga en el centro*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-exchange-container h2{
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color:var(--warn-black_1)
+}
+
+.main-exchange-container p{
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color:#757575;
 }
