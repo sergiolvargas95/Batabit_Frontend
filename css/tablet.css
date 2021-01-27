@@ -15,3 +15,14 @@
     width: 930;
     margin: 0 auto;
 }
+
+div .carousel_actions {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel__button--prev {
+    background-color: blue;
+}

@@ -497,6 +497,7 @@ main{
     overflow-x: scroll;
     overscroll-behavior-x:contain ;
     scroll-snap-type: x proximity;
+    overflow: hidden;
 }
 
 footer{
@@ -528,4 +529,26 @@ footer section .left ul{
 .left a{
     text-decoration: none;
     color: var(--just-white)
+}
+
+.carousel_actions {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+    justify-content: center;
+}
+
+#carousel__button--prev, #carousel__button--netx {
+    height: 40px;
+    width: 40px;
+    border:none;
+    border-radius: 50%;
+    outline: none;
+    background-color:rgba(89, 73, 30, 0.16);
+    cursor:pointer;
+}
+
+.carousel__item--hiden {
+    display: none;
 }
