@@ -518,7 +518,6 @@ footer section .left ul{
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 6rem;
-    
 }
 
 .left li{
@@ -539,7 +538,7 @@ footer section .left ul{
     justify-content: center;
 }
 
-#carousel__button--prev, #carousel__button--netx {
+#carousel__button--prev, #carousel__button--next {
     height: 40px;
     width: 40px;
     border:none;
@@ -549,6 +548,21 @@ footer section .left ul{
     cursor:pointer;
 }
 
-.carousel__item--hiden {
+.carousel__item--hidden {
     display: none;
+}
+
+.carousel__item--visible {
+    display: block;
+    animation: fadeVisibility 0.3s;
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: opacity linear;
+    }
 }
