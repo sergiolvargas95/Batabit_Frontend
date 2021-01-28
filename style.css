@@ -151,11 +151,15 @@ main{
     color:#757575;
 }
 
+.main-tables-container {
+    height: 500px;
+}
+
 .main-currency-table{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: auto;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
 }
@@ -172,7 +176,7 @@ main{
     width: 90%;
     min-width: 230px;
     max-width: 300px;
-    height: 250px;
+    height: 400px;
     margin: 0 auto;
 }
 
@@ -183,6 +187,7 @@ main{
 
 .currency-table--container td{
     width: 50%;
+    height: 30px;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
