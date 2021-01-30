@@ -278,7 +278,6 @@ main{
     min-width: 320px;
     height: auto;
     padding: 15px 10px;
-    /*background-color: var(--warn-black);*/
     background-color: var(--off-white);
     border-top: 1px solid rgba(89, 73, 30, 0.16);
 }
