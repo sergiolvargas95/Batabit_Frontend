@@ -22,7 +22,3 @@ div .carousel_actions {
     height: 100%;
     width: 100%;
 }
-
-.carousel__button--prev {
-    background-color:rgba(89, 73, 30, 0.16)
-}
